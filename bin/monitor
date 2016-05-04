@@ -2,7 +2,7 @@
 
 'use strict';
 
-process.title = 'dmb';
+process.title = 'monitor';
 
 var DMBCli = require('../lib/cli');
 

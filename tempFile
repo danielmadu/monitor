@@ -1,0 +1,12 @@
+console.log('[47m[34mEiiita!!![0m');
+setInterval(function(){
+process.send({
+uptime: process.uptime(),
+memory: process.memoryUsage(),
+pid: process.pid
+});
+},5000);
+var colors = require('colors');
+
+console.log('Testandoooooo'.green);
+

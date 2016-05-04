@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'dmb';
+
+var DMBCli = require('../lib/cli');
+
+DMBCli.run(process.argv);

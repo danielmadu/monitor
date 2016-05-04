@@ -1,5 +1,3 @@
-# monitor
-
 # Monitor de aplicação NodeJs
 
 Ao se executar um script o monitor criará automaticamente um cluster do tamanho total da quantidade de cores do cpus.

@@ -1,4 +1,5 @@
-# Monitor de aplicação NodeJs
+# Monitor de aplicação NodeJs [![Build Status](https://travis-ci.org/danielmadu/monitor.svg?branch=master)](https://travis-ci.org/danielmadu/monitor)
+
 
 Ao se executar um script o monitor criará automaticamente um cluster do tamanho total da quantidade de cores do cpus.
 

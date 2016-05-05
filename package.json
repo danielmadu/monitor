@@ -6,7 +6,7 @@
     "monitor": "bin/monitor"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/gulp"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,10 @@
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
     "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.2"
   }
 }

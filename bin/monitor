@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-'use strict';
-
 process.title = 'monitor';
 
 var DMBCli = require('../lib/cli');
